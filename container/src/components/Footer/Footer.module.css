@@ -1,0 +1,16 @@
+/* Footer.module.css */
+
+/* Sticky footer styles */
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 98%;
+  margin: 10px;
+}
+
+.footerContent {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}

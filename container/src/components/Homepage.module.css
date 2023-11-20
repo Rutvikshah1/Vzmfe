@@ -1,0 +1,46 @@
+/* Homepage.module.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicesSection,
+.offersSection {
+  margin-bottom: 40px;
+}
+
+.serviceCards,
+.offerCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.serviceCard,
+.offerCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 0 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}

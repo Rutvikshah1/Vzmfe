@@ -1,0 +1,66 @@
+/* Joblist.module.css */
+
+.jobListContainer {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 70%;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jobListHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.jobList {
+  list-style: none;
+  padding: 0;
+}
+
+.jobItem {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.jobItem:hover {
+  background-color: #f0f0f0;
+}
+
+.jobDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobInfo {
+  flex: 1;
+}
+
+.jobTitle {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.jobDescription {
+  color: #666;
+}
+
+.completeButton {
+  padding: 16px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  border: 1px solid rgb(218, 218, 218);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

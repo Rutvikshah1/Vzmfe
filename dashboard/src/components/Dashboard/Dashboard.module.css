@@ -1,0 +1,70 @@
+/* Dashboard.module.css */
+
+.dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.jobsSection {
+  margin-bottom: 40px;
+}
+
+.jobList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.jobItem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.actionsSection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.browseButton,
+.profileButton {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.browseButton {
+  background-color: black;
+}
+
+.profileButton {
+  background-color: #333;
+}
+
+.browseButton:hover,
+.profileButton:hover {
+  background-color: #222;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
